@@ -33,9 +33,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # 释放内存 lede包已有
 # git clone https://github.com/chinaboy2345/luci-app-ramfree.git package/luci-app-ramfree
 
-# cpufreq
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-cpufreq package/luci-app-cpufreq
-
 ##############################################################################################
 
 #  系统
