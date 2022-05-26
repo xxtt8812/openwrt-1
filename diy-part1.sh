@@ -58,13 +58,14 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
 #luci-app-adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 
 ##############################################################################################
 
 # 网络
 
 #Turbo ACC 加速 lede包已有
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-turboacc package/luci-app-turboacc
 
 
 ##############################################################################################
