@@ -54,44 +54,17 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 
 # 服务
 
-#docker
-git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-
 #ShadowSocksR Plus+
 git clone https://github.com/fw876/helloworld.git package/helloworld
-
-#passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-
-#passwall2
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-#git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
-
-#helloword
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/fw876/helloworld.git package/helloworld
-
-#openclash
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #luci-app-adguardhome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
 ##############################################################################################
 
-# NAS
-
-#文件助手
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
-
-##############################################################################################
-
 # 网络
 
 #Turbo ACC 加速 lede包已有
-#测速
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-netspeedtest package/luci-app-netspeedtest
+
 
 ##############################################################################################
